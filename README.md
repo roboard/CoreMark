@@ -6,10 +6,10 @@ executing state machines.
 
 | Board                  | CoreMark |
 | ---------------------- | :------: |
-| 86Duino (500MHz overclock, 'O3' optimizations)   | 1039.56   |
-| 86Duino (300MHz, 'O3' optimizations)             | 626.14   |
+| 86Duino (500MHz overclock, '-o3' optimization)   | 1039.56   |
+| 86Duino (300MHz, '-o3' optimization)             | 626.14   |
 | Adafruit Metro M4 (200MHz overclock, 'dragons' optimization) | 536.35   |
-| 86Duino (300MHz, 'O1' optimizations)             | 499.79   |
+| 86Duino (300MHz, smaller code)             | 499.79   |
 | Adafruit Metro M4 (180MHz overclock, faster optimizations) | 458.19   |
 | Teensy 3.6             | 440.72   |
 | Sparkfun ESP32 Thing   | 351.33   |
