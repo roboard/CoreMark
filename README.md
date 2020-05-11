@@ -6,7 +6,9 @@ executing state machines.
 
 | Board                  | CoreMark |
 | ---------------------- | :------: |
-| Teensy 4.0             | 2313.57  |
+| 86Duino (500MHz overclock, 'O3' optimizations)   | 1039.56   |
+| 86Duino (300MHz, 'O3' optimizations)             | 626.14   |
+| 86Duino (300MHz, 'O1' optimizations)             | 499.79   |
 | Adafruit Metro M4 (200MHz overclock, 'dragons' optimization) | 536.35   |
 | Adafruit Metro M4 (180MHz overclock, faster optimizations) | 458.19   |
 | Teensy 3.6             | 440.72   |

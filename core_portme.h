@@ -207,6 +207,12 @@ void portable_fini(core_portable *p);
 #endif
 #endif
 
-int ee_printf(const char *fmt, ...);
+#ifdef __cplusplus
+extern "C" {
+#endif
+    int ee_printf(const char *fmt, ...);
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* CORE_PORTME_H */
