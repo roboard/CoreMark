@@ -6,8 +6,8 @@ executing state machines.
 
 | Board                  | CoreMark |
 | ---------------------- | :------: |
-| 86Duino (500MHz overclock, '-o3' optimization)   | 1039.56   |
-| 86Duino (300MHz, '-o3' optimization)             | 626.14   |
+| 86Duino (500MHz overclock, '-o3' optimization)   | 1086.60   |
+| 86Duino (300MHz, '-o3' optimization)             | 650.93   |
 | Adafruit Metro M4 (200MHz overclock, 'dragons' optimization) | 536.35   |
 | 86Duino (300MHz, smaller code)             | 499.79   |
 | Adafruit Metro M4 (180MHz overclock, faster optimizations) | 458.19   |
